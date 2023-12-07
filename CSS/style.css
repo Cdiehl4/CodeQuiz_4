@@ -1,0 +1,55 @@
+
+.hidden {
+    display: none;
+}
+
+.introLayout {
+    text-align: center;
+}
+
+.buttonConfig {
+    background-color: rgb(185, 48, 212);
+    color: #fff;
+    font-weight: 100;
+    width: 50%;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 4px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.buttonConfig2 {
+    background-color: rgb(185, 48, 212);
+    color: #fff;
+    font-weight: 100;
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 4px 0;
+    text-align: center;
+    border-radius: 10px;
+    /* display: none; */
+}
+
+.buttonConfig:hover {
+    background-color: rgb(61, 11, 107);
+}
+
+.buttonConfig2:hover {
+    background-color: rgb(61, 11, 107);
+}
+
+.correct {
+    background-color: rgb(7, 183, 77);
+}
+
+.incorrect {
+    background-color:rgb(239, 54, 54);
+}
+
+
+#countdown {
+    font-weight: 100;
+    text-align: right;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Timed Mini Quiz</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+  </head>
+  <body>
+    <div class="introLayout">
+      <h1>Coding Quiz</h1>    
+      <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+      <button class="buttonConfig" >Start Quiz</button>
+    </div>
+    <div class="quiz">
+      <h1 id="countdown"></h1>
+      <h1 id="questionTitles"></h1>
+      <div id="questionChoices" class="hidden">
+        <!-- <button class="buttonConfig2"> Choice 1</button>
+          <button class="buttonConfig2"> Choice 2</button>
+          <button class="buttonConfig2"> Choice 3</button>
+          <button class="buttonConfig2"> Choice 4</button> -->
+        </div>
+      </div>
+      <div>
+        <button id="buttonConfig3" class="hidden">Highscores</button>
+        <input id="initials" class="hidden">
+      <button id="highscoreSubmit"class="hidden">Submit</button>
+    </div>
+    <script src="./Assets/JS/script.js"></script>
+  </body>
+</html>
