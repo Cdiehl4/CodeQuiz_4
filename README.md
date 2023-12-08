@@ -20,13 +20,7 @@ complete the code for each of the files
 
  
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
- 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
- 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+file:///C:/Users/Chris/CodingClassWork/Module4-CodeQuiz/index.html
  
 ## Credits
 List your collaborators, if any, with links to their GitHub profiles.
